@@ -14,11 +14,25 @@ body {
   height: 100vh;
   min-width: 50%;
   background: blueviolet;
+  display: flex;
 }
 
 .main_left-block {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1 1 35%;
+  padding: 0px 30px;
+  background-color: rgb(78, 77, 77);
   .wrapper-photo {
+    display: flex;
+    justify-content: center;
+    img {
+      border-radius: 50%;
+      border: 3px solid rgb(241, 237, 237);
+      height: 130px;
+      width: 135px;
+    }
   }
   .wrapper-contact-info {
   }
@@ -28,6 +42,7 @@ body {
   }
 }
 
-.main_right-block{
-  
+.main_right-block {
+  flex: 1 1 65%;
+  background-color: white;
 }
