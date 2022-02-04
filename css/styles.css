@@ -107,8 +107,8 @@ body {
   width: 135px;
 }
 
-.main_left-block .wrapper-languages {
-  border: 2px solid blueviolet;
+.main_left-block .wrapper-languages .padding-top {
+  padding-top: 20px;
 }
 
 .main_right-block {
