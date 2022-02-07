@@ -1,9 +1,9 @@
 body {
-  background: rgb(206,220,231);
-background: -moz-linear-gradient(top,  rgb(206,220,231) 0%, rgb(89,106,114) 100%);
-background: -webkit-linear-gradient(top,  rgb(206,220,231) 0%,rgb(89,106,114) 100%);
-background: linear-gradient(to bottom,  rgb(206,220,231) 0%,rgb(89,106,114) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 );
+  background: rgb(206, 220, 231);
+  background: -moz-linear-gradient(top, rgb(206, 220, 231) 0%, rgb(89, 106, 114) 100%);
+  background: -webkit-linear-gradient(top, rgb(206, 220, 231) 0%, rgb(89, 106, 114) 100%);
+  background: linear-gradient(to bottom, rgb(206, 220, 231) 0%, rgb(89, 106, 114) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 );
 
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
   }
   .wrapper-languages {
     //border: 2px solid blueviolet;
-    .padding-top{
+    .padding-top {
       padding-top: 20px;
     }
   }
@@ -94,16 +94,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
   flex: 1 1 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 30px;
   background-color: white;
-  .name-and-position-block {
-
+  .fullname-and-position-block {
+    padding: 40px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(148, 156, 156);
+    .fullname {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 40px;
+      letter-spacing: 2px;
+      color: white;
+      font-weight: 700;
+    }
+    .position {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 20px;
+      color: rgb(43, 39, 59);
+      padding-top: 15px;
+      font-weight: 900;
+    }
+    .line {
+      height: 3px;
+      width: 60%;
+      background-color: white;
+    }
   }
-  .introduction-block {
-  }
-  .education-block {
-  }
-  .hobbies-block {
+  .other-info-block {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    .introduction-block {
+    }
+    .education-block {
+    }
+    .hobbies-block {
+    }
   }
 }
