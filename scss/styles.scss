@@ -1,9 +1,10 @@
 body {
-  background: rgb(252, 255, 244);
-  background: -moz-linear-gradient(top, rgb(252, 255, 244) 0%, rgb(223, 229, 215) 40%, rgb(179, 190, 173) 100%);
-  background: -webkit-linear-gradient(top, rgb(252, 255, 244) 0%, rgb(223, 229, 215) 40%, rgb(179, 190, 173) 100%);
-  background: linear-gradient(to bottom, rgb(252, 255, 244) 0%, rgb(223, 229, 215) 40%, rgb(179, 190, 173) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+  background: rgb(206,220,231);
+background: -moz-linear-gradient(top,  rgb(206,220,231) 0%, rgb(89,106,114) 100%);
+background: -webkit-linear-gradient(top,  rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+background: linear-gradient(to bottom,  rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 );
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +61,7 @@ body {
   justify-content: space-between;
   flex: 1 1 30%;
   padding: 30px;
-  background-color: rgb(78, 77, 77);
+  background-color: rgb(43, 39, 59);
   color: aliceblue;
 
   .wrapper-photo {
@@ -91,5 +92,18 @@ body {
 
 .main_right-block {
   flex: 1 1 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
   background-color: white;
+  .name-and-position-block {
+
+  }
+  .introduction-block {
+  }
+  .education-block {
+  }
+  .hobbies-block {
+  }
 }
