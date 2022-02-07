@@ -17,7 +17,7 @@ body {
 
 .container {
   height: 100%;
-  min-width: 60%;
+  max-width: 60%;
   background: blueviolet;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,6 +69,12 @@ body {
 
 .element .element-text a:hover {
   color: grey;
+}
+
+.bottom-line {
+  background-color: #2b273b;
+  height: 2px;
+  width: 30%;
 }
 
 .main_left-block {
@@ -179,4 +185,19 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 30px;
+}
+
+.main_right-block .other-info-block .header-block {
+  color: #2b273b;
+  font-weight: 900;
+}
+
+.main_right-block .other-info-block .introduction-block {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2b273b;
+}
+
+.main_right-block .other-info-block .introduction-block i {
+  padding-right: 10px;
 }
