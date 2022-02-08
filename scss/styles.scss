@@ -16,6 +16,7 @@ body {
   max-width: 60%;
   background: blueviolet;
   display: flex;
+  box-shadow: 10px 5px 5px black;
 }
 
 .header-block {
@@ -58,7 +59,7 @@ body {
 .bottom-line {
   background-color: rgb(43, 39, 59);
   height: 2px;
-  width: 30%;
+  width: 110px;
 }
 
 .main_left-block {
@@ -133,10 +134,28 @@ body {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 30px;
+    color: rgb(43, 39, 59);
+    .content {
+      padding-left: 20px;
+    
+    .institution {
+      font-weight: bold;
+      font-size: 18px;
+      padding-top: 10px;
+    }
+    .description {
+      font-size: 15px;
+      .years {
+        font-weight: bold;
+      }
+      .position {
+        font-style: italic;
+      }
+    }
+  }
+
     .header-block {
-      color: rgb(43, 39, 59);
       font-weight: 900;
     }
     .introduction-block {
@@ -148,8 +167,10 @@ body {
       }
     }
     .education-block {
+      padding-top: 25px;
     }
-    .hobbies-block {
+    .experience-block {
+      padding-top: 25px;
     }
   }
 }

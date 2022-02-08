@@ -22,6 +22,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 10px 5px 5px black;
+          box-shadow: 10px 5px 5px black;
 }
 
 .header-block {
@@ -74,7 +76,7 @@ body {
 .bottom-line {
   background-color: #2b273b;
   height: 2px;
-  width: 30%;
+  width: 110px;
 }
 
 .main_left-block {
@@ -181,14 +183,33 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 30px;
+  color: #2b273b;
+}
+
+.main_right-block .other-info-block .content {
+  padding-left: 20px;
+}
+
+.main_right-block .other-info-block .content .institution {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.main_right-block .other-info-block .content .description {
+  font-size: 15px;
+}
+
+.main_right-block .other-info-block .content .description .years {
+  font-weight: bold;
+}
+
+.main_right-block .other-info-block .content .description .position {
+  font-style: italic;
 }
 
 .main_right-block .other-info-block .header-block {
-  color: #2b273b;
   font-weight: 900;
 }
 
@@ -200,4 +221,12 @@ body {
 
 .main_right-block .other-info-block .introduction-block i {
   padding-right: 10px;
+}
+
+.main_right-block .other-info-block .education-block {
+  padding-top: 25px;
+}
+
+.main_right-block .other-info-block .experience-block {
+  padding-top: 25px;
 }
