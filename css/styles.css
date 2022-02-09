@@ -1,8 +1,7 @@
 body {
-  background: #cedce7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
-  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 );
+  background-image: url("/img/1.jpg");
+  background-position: center;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +104,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .main_left-block .wrapper-photo img {
