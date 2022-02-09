@@ -73,10 +73,13 @@ body {
     justify-content: center;
     padding-bottom: 30px;
     img {
-      border-radius: 50%;
+      border-radius: 40%;
       border: 3px solid rgb(241, 237, 237);
       height: 150px;
       width: 155px;
+      &:hover {
+        transform:scale(1.5)
+      }
     }
   }
   .wrapper-contact-info {
