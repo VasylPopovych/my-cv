@@ -21,8 +21,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 10px 5px 5px black;
-          box-shadow: 10px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 15px 5px #424242;
+          box-shadow: 5px 5px 15px 5px #424242;
 }
 
 .header-block {
