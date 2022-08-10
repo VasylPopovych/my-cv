@@ -29,6 +29,16 @@ body {
 
 .element {
   display: flex;
+  &:nth-child(2) {
+    .element-text {
+      padding-left: 17px;
+    }
+  }
+  &:nth-child(5) {
+    .element-text {
+      padding-left: 19px;
+    }
+  }
   .element-icon {
     i {
       height: 10px;
@@ -51,7 +61,6 @@ body {
       }
     }
   }
-  
 }
 
 .bottom-line {
@@ -79,7 +88,7 @@ body {
       height: 150px;
       width: 155px;
       &:hover {
-        transform:scale(1.5)
+        transform: scale(1.5);
       }
     }
   }
