@@ -83,7 +83,7 @@ body {
 .bottom-line {
   background-color: #2b273b;
   height: 2px;
-  width: 110px;
+  width: 120px;
 }
 
 .main_left-block {
@@ -203,22 +203,54 @@ body {
   padding-left: 20px;
 }
 
-.main_right-block .other-info-block .content .institution {
+.main_right-block .other-info-block .content .introduction {
+  margin-left: -20px;
+  padding-top: 10px;
+  font-size: 13px;
   font-weight: bold;
-  font-size: 18px;
+}
+
+.main_right-block .other-info-block .content .project-name {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  font-weight: bold;
+  font-size: 16px;
   padding-top: 10px;
 }
 
 .main_right-block .other-info-block .content .description {
-  font-size: 15px;
+  font-size: 14px;
 }
 
-.main_right-block .other-info-block .content .description .years {
+.main_right-block .other-info-block .content .description .links {
+  font-size: 13px;
   font-weight: bold;
 }
 
-.main_right-block .other-info-block .content .description .position {
-  font-style: italic;
+.main_right-block .other-info-block .content .description .links a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #2c4a52;
+}
+
+.main_right-block .other-info-block .content .description .links a:hover {
+  color: #8e9b97;
+}
+
+.main_right-block .other-info-block .content .description .functional-descriptions {
+  padding-top: 3px;
+}
+
+.main_right-block .other-info-block .content .description .functional-descriptions span {
+  font-weight: bold;
+}
+
+.main_right-block .other-info-block .content .description .technologies {
+  padding-top: 3px;
+}
+
+.main_right-block .other-info-block .content .description .technologies span {
+  font-weight: bold;
 }
 
 .main_right-block .other-info-block .header-block {
@@ -237,6 +269,24 @@ body {
 
 .main_right-block .other-info-block .education-block {
   padding-top: 25px;
+}
+
+.main_right-block .other-info-block .education-block .institution {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.main_right-block .other-info-block .education-block .description {
+  font-size: 15px;
+}
+
+.main_right-block .other-info-block .education-block .description .years {
+  font-weight: bold;
+}
+
+.main_right-block .other-info-block .education-block .description .position {
+  font-style: italic;
 }
 
 .main_right-block .other-info-block .experience-block {
