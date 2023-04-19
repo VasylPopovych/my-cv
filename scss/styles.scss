@@ -27,6 +27,20 @@ body {
   padding: 15px 0px;
 }
 
+.links {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 2px;
+  a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #2c4a52;
+    &:hover {
+      color: #8e9b97;
+    }
+  }
+}
+
 .element {
   display: flex;
   &:nth-child(4) {
@@ -147,18 +161,6 @@ body {
         padding-top: 10px;
       }
       .description {
-        .links {
-          font-size: 13px;
-          font-weight: bold;
-          a {
-            text-decoration: none;
-            margin-left: 20px;
-            color: #2c4a52;
-            &:hover {
-              color: #8e9b97;
-            }
-          }
-        }
         font-size: 13px;
         .functional-descriptions {
           padding-top: 3px;
@@ -191,9 +193,15 @@ body {
     .education-block {
       padding-top: 25px;
       .institution {
+        display: flex;
         font-weight: bold;
         font-size: 18px;
         padding-top: 10px;
+        .bsa-icon {
+          margin-left: 5px;
+          height: 30px;
+          width: 30px;
+        }
       }
       .description {
         font-size: 15px;
@@ -202,6 +210,13 @@ body {
         }
         .position {
           font-style: italic;
+        }
+        .coaches {
+          display: flex;
+        }
+        .project {
+          display: flex;
+          align-items: center;
         }
       }
     }
