@@ -36,6 +36,22 @@ body {
   padding: 15px 0px;
 }
 
+.links {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 2px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #2c4a52;
+}
+
+.links a:hover {
+  color: #8e9b97;
+}
+
 .element {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,21 +231,6 @@ body {
   font-size: 13px;
 }
 
-.main_right-block .other-info-block .content .description .links {
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.main_right-block .other-info-block .content .description .links a {
-  text-decoration: none;
-  margin-left: 20px;
-  color: #2c4a52;
-}
-
-.main_right-block .other-info-block .content .description .links a:hover {
-  color: #8e9b97;
-}
-
 .main_right-block .other-info-block .content .description .functional-descriptions {
   padding-top: 3px;
 }
@@ -267,9 +268,18 @@ body {
 }
 
 .main_right-block .other-info-block .education-block .institution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-weight: bold;
   font-size: 18px;
   padding-top: 10px;
+}
+
+.main_right-block .other-info-block .education-block .institution .bsa-icon {
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
 }
 
 .main_right-block .other-info-block .education-block .description {
@@ -282,6 +292,21 @@ body {
 
 .main_right-block .other-info-block .education-block .description .position {
   font-style: italic;
+}
+
+.main_right-block .other-info-block .education-block .description .coaches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_right-block .other-info-block .education-block .description .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main_right-block .other-info-block .experience-block {
