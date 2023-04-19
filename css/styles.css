@@ -309,6 +309,12 @@ body {
           align-items: center;
 }
 
+.main_right-block .other-info-block .education-block .description .certificate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main_right-block .other-info-block .experience-block {
   padding-top: 25px;
 }
